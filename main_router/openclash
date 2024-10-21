@@ -353,4 +353,4 @@ config config_subscribe
 	list ex_keyword '备用'
 	list ex_keyword '请使用'
 	list ex_keyword '因'
-	list ex_keyword '香港 油尖旺御金'
+	list ex_keyword '香港 油尖旺御金·国峯 名氣通電訊'
