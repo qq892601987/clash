@@ -50,3 +50,34 @@ IP-CIDR,1.0.0.1/32,no-resolve
 IP-CIDR,185.222.222.222/32,no-resolve
 IP-CIDR,208.67.222.222/32,no-resolve
 IP-CIDR,208.67.220.220/32,no-resolve
+
+# 虚拟币平台
+DOMAIN-SUFFIX,binance.com,Proxy
+DOMAIN-SUFFIX,binance.cloud,Proxy
+DOMAIN-SUFFIX,okex.com,Proxy
+DOMAIN-SUFFIX,okx.com,Proxy
+DOMAIN-SUFFIX,huobi.com,Proxy // HuoBi
+DOMAIN-SUFFIX,debank.com,Proxy
+DOMAIN-SUFFIX,zks.org,Proxy
+DOMAIN-SUFFIX,zks.app,Proxy
+DOMAIN-SUFFIX,zkswap.info,Proxy
+DOMAIN-SUFFIX,loopring.org,Proxy
+DOMAIN-SUFFIX,loopring.io,Proxy
+DOMAIN-SUFFIX,loopring.network,Proxy
+DOMAIN-SUFFIX,ipdata.co,Proxy
+DOMAIN-SUFFIX,api.loopring.network,Proxy
+DOMAIN-SUFFIX,coingecko.com,Proxy
+DOMAIN-SUFFIX,coinmarketcap.com,Proxy
+DOMAIN-SUFFIX,token.im,Proxy
+DOMAIN-SUFFIX,tongke.top,Proxy
+DOMAIN-SUFFIX,tongke.co,Proxy
+DOMAIN-SUFFIX,tokenlon.im,Proxy
+DOMAIN-SUFFIX,onekey-asset.com,Proxy
+DOMAIN-SUFFIX,onekey.so,Proxy
+DOMAIN-SUFFIX,qkl123.com,Proxy
+DOMAIN-SUFFIX,tradingview.com,Proxy // TradingView
+DOMAIN-SUFFIX,bybit.com,Proxy
+DOMAIN-SUFFIX,feixiaohao.co,Proxy
+DOMAIN-SUFFIX,feixiaoquan.com,Proxy
+DOMAIN-SUFFIX,fxhapp.com,Proxy
+DOMAIN-SUFFIX,kucoin.com,Proxy
