@@ -1,1 +1,1 @@
-# lian
+# openclash完美设置
