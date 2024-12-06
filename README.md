@@ -1,1 +1,1 @@
-# openclash完美设置
+# openclash
