@@ -4,6 +4,9 @@ IP-CIDR,142.171.133.131/32,no-resolve
 IP-CIDR,103.115.43.2/32,no-resolve
 IP-CIDR,104.236.69.0/24,no-resolve
 IP-CIDR,107.155.58.0/256,no-resolve
+IP-CIDR,18.194.0.0/15,no-resolve
+IP-CIDR,34.224.0.0/12,no-resolve
+IP-CIDR,74.125.0.0/16,no-resolve
 # 国外DNS
 DOMAIN-SUFFIX,dns.google
 DOMAIN-SUFFIX,1dot1dot1dot1.cloudflare-dns.com
@@ -96,13 +99,9 @@ IP-CIDR,2001:b28:f23c::/48
 IP-CIDR,2a0a:f280::/32
 # disqus
 DOMAIN-SUFFIX,disquscdn.com
-# 50 whatsapp
-IP-CIDR,18.194.0.0/15
-IP-CIDR,34.224.0.0/12
 # 54 台湾香港澳门 常用网站
 DOMAIN-SUFFIX,appledaily.tw
-# 72 #112 Google Voice
-IP-CIDR,74.125.0.0/16
+
 # news
 DOMAIN-SUFFIX,vox.com
 # 苹果域名及其 CDN 代理
