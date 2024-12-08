@@ -89,13 +89,6 @@ DOMAIN-SUFFIX,ampproject.org # Google AMP issue#237
 # 手工定义的 Proxy 列表
 # TED
 DOMAIN-SUFFIX,tedcdn.com
-# Telegram
-DOMAIN-SUFFIX,t.me
-DOMAIN-SUFFIX,tdesktop.com
-DOMAIN-SUFFIX,telegra.ph
-DOMAIN-SUFFIX,telegram.me
-DOMAIN-SUFFIX,telegram.org,Proxy
-DOMAIN-SUFFIX,telesco.pe
 
 # disqus
 DOMAIN-SUFFIX,disquscdn.com
