@@ -5,7 +5,8 @@
 # DOMAIN: 1
 # DOMAIN-SUFFIX: 115
 # TOTAL: 116
-DOMAIN,sonyliveevents-nonssai.akamaized.net
+DOMAIN-SUFFIX,app.swup.update.sony.net
+DOMAIN-SUFFIX,sonyliveevents-nonssai.akamaized.net
 DOMAIN-SUFFIX,cn-playnow.com.cn
 DOMAIN-SUFFIX,ginzasonypark.jp
 DOMAIN-SUFFIX,imageworks.com
