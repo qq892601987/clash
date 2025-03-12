@@ -26,16 +26,16 @@ IP-CIDR,223.6.6.6/32,no-resolve
 IP-CIDR,180.76.76.76/32,no-resolve
 IP-CIDR,114.114.114.114/32,no-resolve
 IP-CIDR,114.114.115.115/32,no-resolve
-IP-CIDR,18.208.18.15,no-resolve
-IP-CIDR,18.208.18.15,no-resolve
-IP-CIDR,44.196.221.27,no-resolve
-IP-CIDR,18.211.45.51,no-resolve
-IP-CIDR,3.231.66.58,no-resolve
-IP-CIDR,54.174.209.83,no-resolve
-IP-CIDR,44.218.155.151,no-resolve
-IP-CIDR,54.86.152.169,no-resolve
-IP-CIDR,3.214.133.223,no-resolve
-IP-CIDR,76.76.21.21,no-resolve
+IP-CIDR,18.208.18.15/443,no-resolve
+IP-CIDR,18.208.18.15/443,no-resolve
+IP-CIDR,44.196.221.27/443,no-resolve
+IP-CIDR,18.211.45.51/443,no-resolve
+IP-CIDR,3.231.66.58/443,no-resolve
+IP-CIDR,54.174.209.83/443,no-resolve
+IP-CIDR,44.218.155.151/443,no-resolve
+IP-CIDR,54.86.152.169/443,no-resolve
+IP-CIDR,3.214.133.223/443,no-resolve
+IP-CIDR,76.76.21.21/443,no-resolve
 
 
 # 360
