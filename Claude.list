@@ -1,11 +1,40 @@
 # NAME: Claude
-# AUTHOR: blackmatrix7
-# REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2025-06-06 09:20:01
-# DOMAIN: 1
-# DOMAIN-SUFFIX: 2
-# TOTAL: 3
-DOMAIN,a-cdn.usefathom.com
-DOMAIN-SUFFIX,a-api.anthropic.com
+
+# 核心域名（DOMAIN-SUFFIX 已覆盖所有子域名）
+DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
-DOMAIN-SUFFIX,www.anthropic.com
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,clau.de
+DOMAIN-SUFFIX,claudemcpclient.com
+DOMAIN-SUFFIX,claudemcpcontent.com
+DOMAIN-SUFFIX,claudeusercontent.com
+
+# CDN 和静态资源
+DOMAIN,servd-anthropic-website.b-cdn.net
+DOMAIN,anthropic.com.cdn.cloudflare.net
+
+# 认证 / 内容
+DOMAIN,anthropic.auth0.com
+DOMAIN,anthropic-com.ghost.io
+
+# 客服 / 第三方 Widget
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+
+# 监控、遥测与数据分析
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,statsigapi.net
+DOMAIN-SUFFIX,datadoghq.com
+DOMAIN-SUFFIX,usefathom.com
+DOMAIN-KEYWORD,datadog
+DOMAIN-KEYWORD,sift
+
+# 扩展与第三方依赖 (桌面端、开源组件、追踪器)
+DOMAIN-SUFFIX,snapcraft.io
+DOMAIN-SUFFIX,ubuntu.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,facebook.net
+
+# IP 段 / ASN 兜底
+IP-CIDR,160.79.104.0/21,no-resolve
+IP-CIDR6,2607:6bc0::/32,no-resolve
