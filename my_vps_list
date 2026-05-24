@@ -1,4 +1,4 @@
-rules:
+#vps直连
   - DOMAIN-SUFFIX,ytfbtk.top,DIRECT
   - DOMAIN-SUFFIX,sonyrom.com,DIRECT
   - IP-CIDR,38.47.100.56/32,DIRECT
