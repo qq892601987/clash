@@ -1,12 +1,31 @@
+# ==========================================
+# Google AI / Gemini 分流规则列表
+# ==========================================
+
+# 1. 核心关键字兜底
+DOMAIN-KEYWORD,gemini
+
+# 2. 面向用户的 UI 主站
 DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,notebooklm.google.com
+DOMAIN-SUFFIX,notebooklm.google
+
+# 3. 核心 API 与后端交互
 DOMAIN-SUFFIX,gemini-pa.googleapis.com
-DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
 DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,alkali.google.com
+
+# 4. 开发者平台与 AI Studio
 DOMAIN-SUFFIX,aistudio.google.com
 DOMAIN-SUFFIX,aistudio-pa.clients6.google.com
-DOMAIN-SUFFIX,googleusercontent.com
-DOMAIN-SUFFIX,android.googleapis.com
 DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN-SUFFIX,ai.google.dev
+
+# 5. DeepMind 及实验室前沿组件
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
 DOMAIN-SUFFIX,antigravity.google
