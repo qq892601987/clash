@@ -32,8 +32,6 @@ DOMAIN-KEYWORD,sift
 # 扩展与第三方依赖 (桌面端、开源组件、追踪器)
 DOMAIN-SUFFIX,snapcraft.io
 DOMAIN-SUFFIX,ubuntu.com
-DOMAIN-SUFFIX,githubusercontent.com
-DOMAIN-SUFFIX,facebook.net
 
 # IP 段 / ASN 兜底
 IP-CIDR,160.79.104.0/21,no-resolve
