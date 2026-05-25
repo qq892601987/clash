@@ -1,22 +1,12 @@
-rules:
-  # ==========================================
-  # 1. 最高优先级：我的VPS与私人域名直连 (防失联)
-  # ==========================================
-  - DOMAIN-SUFFIX,ytfbtk.top,直连
-  - DOMAIN-SUFFIX,sonyrom.com,直连
-  - IP-CIDR,38.47.100.56/32,直连,no-resolve
-  - IP-CIDR,38.34.7.18/32,直连,no-resolve
-  - IP-CIDR,103.106.191.112/32,直连,no-resolve
+# ==========================================
+# 我的 VPS 与私人域名直连列表 (GitHub 远端维护)
+# ==========================================
 
-  # ==========================================
-  # 2. Gemini / Google AI 强制分流 (防漏网)
-  # ==========================================
-  - DOMAIN-KEYWORD,gemini,AI工具
-  - DOMAIN-SUFFIX,gemini.google.com,AI工具
-  # ... (这里接你刚才加的其他 Gemini 规则)
+# 域名直连
+DOMAIN-SUFFIX,ytfbtk.top
+DOMAIN-SUFFIX,sonyrom.com
 
-  # ==========================================
-  # 3. 正常业务规则 (拉取远端列表)
-  # ==========================================
-  - RULE-SET,vps / Domain,vps
-  # ... (下面的保持原样)
+# IP 直连 (务必加上 no-resolve 防止 DNS 拖慢速度或解析超时)
+IP-CIDR,38.47.100.56/32,no-resolve
+IP-CIDR,38.34.7.18/32,no-resolve
+IP-CIDR,103.106.191.112/32,no-resolve
